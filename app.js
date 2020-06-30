@@ -5,6 +5,11 @@ var budgetController = (function() {
         return a + x;
     }
 
+    return {
+        publicTest: function(b) {
+            console.log(add(b));
+        }
+    }
 })();
 
 var UIController = (function() {
@@ -15,5 +20,12 @@ var UIController = (function() {
 
 var controller = (function(budgetCtrl, UICtrl) {
 
+    var z = budgetCtrl.publicTest(5);
+
+    return {
+        publicController: function() {
+            console.log(z);
+        }
+    }
 
 })(budgetController, UIController);
