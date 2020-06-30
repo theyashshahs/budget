@@ -6,3 +6,14 @@ var budgetController = (function() {
     }
 
 })();
+
+var UIController = (function() {
+
+    // code related to UI 
+
+})();
+
+var controller = (function(budgetCtrl, UICtrl) {
+
+
+})(budgetController, UIController);
