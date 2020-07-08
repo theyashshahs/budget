@@ -149,7 +149,7 @@ body {
     transition: border 0.3s;
 }
 
-.add__description { width: 400px;}
+.add__description { width: 200px;}
 .add__value { width: 100px;}
 
 .add__btn {
@@ -199,7 +199,7 @@ h2 {
     margin-bottom: 15px;
 }
 
-.icome__title { color: #28B9B5; }
+.income__title { color: #28B9B5; }
 .expenses__title { color: #FF5049; }
 
 .item {
